@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "flatiron_jobs_cli/version"
+require "flatiron_jobs_cli_project/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "flatiron_jobs_cli"
-  spec.version       = FlatironJobsCli::VERSION
+  spec.name          = "flatiron_jobs_cli_project"
+  spec.version       = FlatironJobsCliProject::VERSION
   spec.authors       = ["'Raymond Gonzalez'"]
   spec.email         = ["'raymondalexander.gonzalez@gmail.com'"]
 
